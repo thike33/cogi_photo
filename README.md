@@ -1,24 +1,22 @@
-# README
+# こぎフォト
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## サービス概要
+こぎフォトはコーギーの可愛い画像をみんなで投稿して、閲覧するだけのアプリです。
+みんなでコーギーをひたすら愛でましょう。
 
-Things you may want to cover:
+## このサービスを作った理由
+制作者がコーギー好きでいろんなコーギーの画像を見てみたかったです。
 
-* Ruby version
+## ユーザー層について
+- コーギーが好きな人
+- 動物が好きな人
 
-* System dependencies
+## サービスの利用イメージ
+- コーギー好きが閲覧に来てただ癒される
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## 機能候補
+- ユーザー登録
+- ログイン・ログアウト
+- 掲示板投稿
+- ブックマーク
+- いいね
