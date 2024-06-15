@@ -1,14 +1,14 @@
 <header class="flex items-center justify-between h-16 px-4 shadow-md">
   <h1 class="">
-    <%= link_to 'こぎフォト', root_path, class: '' %>
+    <%= link_to t('header.title'), root_path, class: '' %>
   </h1>
   <nav class="hidden md:block">
     <ul class="flex items-center gap-3">
       <li class="">
-        <%= link_to '掲示板一覧', '#', class: '' %>
+        <%= link_to t('header.board_index'), '#', class: '' %>
       </li>
       <li class="">
-        <%= link_to 'ログアウト', logout_path, class: '', data: { turbo_method: :delete } %>
+        <%= link_to t('header.logout'), logout_path, class: '', data: { turbo_method: :delete } %>
       </li>
     </ul>
   </nav>

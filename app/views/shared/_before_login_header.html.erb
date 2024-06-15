@@ -1,14 +1,14 @@
 <header class="flex items-center justify-between h-16 px-4 shadow-md">
   <h1 class="">
-    <%= link_to 'こぎフォト', root_path, class: '' %>
+    <%= link_to t('header.title'), root_path, class: '' %>
   </h1>
   <nav class="hidden md:block">
     <ul class="flex items-center gap-3">
       <li class="">
-        <%= link_to '新規登録', new_user_path, class: '' %>
+        <%= link_to t('header.to_register_page'), new_user_path, class: '' %>
       </li>
       <li class="">
-        <%= link_to 'ログイン', login_path, class: '' %>
+        <%= link_to t('header.login'), login_path, class: '' %>
       </li>
     </ul>
   </nav>
