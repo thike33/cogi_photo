@@ -1,0 +1,16 @@
+<div class="mx-auto my-10 max-w-3xl px-5 md:my-20">
+  <h1 class="text-3xl text-center ">ログイン</h1>
+  <%= form_with url: login_path, class: 'grid grid-cols-1 gap-5 mt-10' do |f| %>
+    <div class="grid grid-cols-1 gap-3">
+      <%= f.label :email, class: 'font-medium' %>
+      <%= f.email_field :email, class: 'border rounded text-base p-2' %>
+    </div>
+    <div class="grid grid-cols-1 gap-3">
+      <%= f.label :password, class: 'font-medium' %>
+      <%= f.password_field :password, class: 'border rounded text-base p-2' %>
+    </div>
+    <div class="text-center">
+      <%= f.submit 'ログイン', class: 'inline-block border rounded px-4 py-2' %>
+    </div>
+  <% end %>
+</div>
