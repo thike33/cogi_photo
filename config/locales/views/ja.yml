@@ -1,0 +1,27 @@
+ja:
+  helpers:
+    submit:
+      create: 登録
+      submit: 保存
+      update: 更新
+    label:
+      email: メールアドレス
+      password: パスワード
+  users:
+    new:
+      title: ユーザー登録
+  user_sessions:
+    new:
+      title: ログイン
+      login: ログイン
+      to_register_page: 登録ページへ
+      password_forget: パスワードをお忘れの方はこちら
+  header:
+    title: こぎフォト
+    login: ログイン
+    logout: ログアウト
+    to_register_page: 新規登録
+    board: 掲示板
+    board_index: 掲示板一覧
+    board_create: 掲示板作成
+    bookmark_index: ブックマーク一覧
