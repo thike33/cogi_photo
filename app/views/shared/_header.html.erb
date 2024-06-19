@@ -5,7 +5,7 @@
   <nav class="hidden md:block">
     <ul class="flex items-center gap-3">
       <li class="">
-        <%= link_to t('header.board_index'), '#', class: '' %>
+        <%= link_to t('header.board_index'), boards_path, class: '' %>
       </li>
       <li class="">
         <%= link_to t('header.logout'), logout_path, class: '', data: { turbo_method: :delete } %>

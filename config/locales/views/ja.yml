@@ -1,4 +1,6 @@
 ja:
+  defaults:
+    require_login: ログインしてください
   helpers:
     submit:
       create: 登録
