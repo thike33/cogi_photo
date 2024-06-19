@@ -14,4 +14,12 @@ body {
         font-size: clamp(20px, 9vw, 80px);
         line-height: 1.1;
     }
+
+    .card {
+        display: block;
+    }
+
+    .card:hover img {
+        scale: 1.1;
+    }
 }

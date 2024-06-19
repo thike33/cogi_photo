@@ -1,0 +1,9 @@
+<div class="mx-auto my-10 max-w-7xl px-5 md:my-20">
+  <% if @boards.present? %>
+    <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+      <%= render @boards %>
+    </div>
+  <% else %>
+    <p class="text-center">掲示板がありません</p>
+  <% end %>
+</div>

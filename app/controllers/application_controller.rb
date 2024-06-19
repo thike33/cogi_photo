@@ -6,6 +6,6 @@ class ApplicationController < ActionController::Base
 
   # ログインしていない場合に指定されたパスにリダイレクト
   def not_authenticated
-    redirect_to root_path
+    redirect_to root_path, danger: t('defaults.flash_message.require_login')
   end
 end
