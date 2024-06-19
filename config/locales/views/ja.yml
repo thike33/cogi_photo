@@ -10,12 +10,20 @@ ja:
   users:
     new:
       title: ユーザー登録
+    create:
+      success: ユーザー登録が完了しました
+      failure: ユーザー登録が失敗しました
   user_sessions:
     new:
       title: ログイン
       login: ログイン
       to_register_page: 登録ページへ
       password_forget: パスワードをお忘れの方はこちら
+    create:
+      success: ログインしました
+      failure: ログインに失敗しました
+    destroy:
+      success: ログアウトしました
   header:
     title: こぎフォト
     login: ログイン
