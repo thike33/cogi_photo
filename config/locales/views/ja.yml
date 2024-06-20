@@ -1,6 +1,9 @@
 ja:
   defaults:
-    require_login: ログインしてください
+    flash_message:
+      created: "%{item}を作成しました"
+      not_created: "%{item}を作成出来ませんでした"
+      require_login: ログインしてください
   helpers:
     submit:
       create: 登録
