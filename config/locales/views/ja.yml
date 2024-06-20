@@ -1,6 +1,9 @@
 ja:
   defaults:
-    require_login: ログインしてください
+    flash_message:
+      created: "%{item}を作成しました"
+      not_created: "%{item}を作成出来ませんでした"
+      require_login: ログインしてください
   helpers:
     submit:
       create: 登録
@@ -9,6 +12,15 @@ ja:
     label:
       email: メールアドレス
       password: パスワード
+  header:
+    title: こぎフォト
+    login: ログイン
+    logout: ログアウト
+    to_register_page: 新規登録
+    board: 掲示板
+    board_index: 掲示板一覧
+    board_create: 掲示板作成
+    bookmark_index: ブックマーク一覧
   users:
     new:
       title: ユーザー登録
@@ -26,12 +38,6 @@ ja:
       failure: ログインに失敗しました
     destroy:
       success: ログアウトしました
-  header:
-    title: こぎフォト
-    login: ログイン
-    logout: ログアウト
-    to_register_page: 新規登録
-    board: 掲示板
-    board_index: 掲示板一覧
-    board_create: 掲示板作成
-    bookmark_index: ブックマーク一覧
+  boards:
+    new:
+      title: 新規投稿

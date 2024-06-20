@@ -8,6 +8,9 @@
         <%= link_to t('header.board_index'), boards_path, class: '' %>
       </li>
       <li class="">
+        <%= link_to t('header.board_create'), new_board_path, class: '' %>
+      </li>
+      <li class="">
         <%= link_to t('header.logout'), logout_path, class: '', data: { turbo_method: :delete } %>
       </li>
     </ul>
