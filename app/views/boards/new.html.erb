@@ -10,6 +10,11 @@
       <%= f.label :body, class: 'font-medium' %>
       <%= f.text_area :body, class: 'border rounded w-full text-base p-2' %>
     </div>
+    <div class="grid grid-cols-1 gap-3">
+      <%= f.label :board_image, class: 'font-medium' %>
+      <%= f.file_field :board_image, class: '', accept: 'image/*' %>
+      <%= f.hidden_field :board_image_cache %>
+    </div>
     <div class="text-center">
       <%= f.submit nil, class: 'inline-block border rounded px-4 py-2 cursor-pointer' %>
     </div>
