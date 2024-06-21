@@ -1,6 +1,7 @@
 <div class="mx-auto my-10 max-w-3xl px-5 md:my-20">
   <h1 class="text-3xl text-center "><%= t('.title') %></h1>
   <%= form_with model: @user, class: 'grid grid-cols-1 gap-5 mt-10' do |f| %>
+    <%= render 'shared/error_messages', object: f.object %>
     <div class="grid grid-cols-1 gap-3">
       <%= f.label :name, class: 'font-medium' %>
       <%= f.text_field :name, class: 'border rounded w-full text-base p-2' %>
