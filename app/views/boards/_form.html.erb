@@ -1,0 +1,19 @@
+<%= form_with model: board, class: 'grid grid-cols-1 gap-5 mt-10' do |f| %>
+  <%= render 'shared/error_messages', object: f.object %>
+  <div class="grid grid-cols-1 gap-3">
+    <%= f.label :title, class: 'font-medium' %>
+    <%= f.text_field :title, class: 'border rounded w-full text-base p-2' %>
+  </div>
+  <div class="grid grid-cols-1 gap-3">
+    <%= f.label :body, class: 'font-medium' %>
+    <%= f.text_area :body, class: 'border rounded w-full text-base p-2' %>
+  </div>
+  <div class="grid grid-cols-1 gap-3">
+    <%= f.label :board_image, class: 'font-medium' %>
+    <%= f.file_field :board_image, class: '', accept: 'image/*' %>
+    <%= f.hidden_field :board_image_cache %>
+  </div>
+  <div class="text-center">
+    <%= f.submit nil, class: 'inline-block border rounded px-4 py-2 cursor-pointer' %>
+  </div>
+<% end %>

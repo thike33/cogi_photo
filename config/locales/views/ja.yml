@@ -3,6 +3,8 @@ ja:
     flash_message:
       created: "%{item}を作成しました"
       not_created: "%{item}を作成出来ませんでした"
+      updated: "%{item}を更新しました"
+      not_updated: "%{item}を更新出来ませんでした"
       require_login: ログインしてください
   helpers:
     submit:
@@ -41,3 +43,5 @@ ja:
   boards:
     new:
       title: 新規投稿
+    edit:
+      title: 投稿編集
