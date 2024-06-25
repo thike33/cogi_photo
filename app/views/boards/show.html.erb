@@ -11,7 +11,10 @@
   <% if current_user.own?(@board) %>
     <div class="flex gap-5 justify-center mt-10 text-center">
       <%= link_to '編集する', edit_board_path, class: 'inline-block border rounded px-4 py-2 cursor-pointer' %>
-      <%= link_to '一覧へ戻る', boards_path, class: 'inline-block border rounded px-4 py-2 cursor-pointer' %>
-    </div>
+      <%= link_to '削除する', board_path(@board), data: {turbo_method: :delete, turbo_confirm: t('defaults.delete_confirm')}, class: 'inline-block border rounded px-4 py-2 cursor-pointer' %>
+    </div>・
   <% end %>
+  <div class="flex gap-5 justify-center mt-10 text-center">
+    <%= link_to '一覧へ戻る', boards_path, class: 'inline-block border rounded px-4 py-2 cursor-pointer' %>
+  </div>
 </div>
