@@ -22,8 +22,8 @@ ja:
     logout: ログアウト
     to_register_page: 新規登録
     board: 掲示板
-    board_index: 掲示板一覧
-    board_create: 掲示板作成
+    board_index: 投稿一覧
+    board_create: 新規投稿
     bookmark_index: ブックマーク一覧
   users:
     new:
