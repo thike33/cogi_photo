@@ -1,9 +1,7 @@
-<footer class="footer footer-center mt-auto p-10 bg-main-color text-base-content rounded">
+<footer class="footer footer-center mt-auto p-10 bg-main-color text-base-content">
   <nav class="grid grid-flow-col gap-4">
-    <a class="link link-hover">利用規約</a>
-    <a class="link link-hover">プライバシーポリシー</a>
+    <%= link_to '利用規約', '#', class: 'text-sm md:text-base hover:underline' %>
+    <%= link_to 'プライバシーポリシー', '#', class: 'text-sm md:text-base hover:underline' %>
   </nav>
-  <aside>
-    <p>Copyright © 2024 - こぎフォト</p>
-  </aside>
+  <p class="text-sm md:text-base">Copyright © 2024 - こぎフォト</p>
 </footer>
